@@ -1,33 +1,38 @@
-.wrapper{
-    padding: 20px 100px;
+body {
+  background-color: black;
 }
-.box{
-    background-color: ;
-    padding: 90px;
-    
+
+.wrapper {
+  padding: 20px 10px;
+  background-color: black;
 }
-.boxreal{
-    background-color: #d4d4d4;
-    text-align: center;
-    padding: 100px;
-    border-radius: 20px;
+.box {
+  background-color: ;
+  padding: 10px;
+  background-color: black;
 }
-.odd{
-    color: red;
-    text-align: center;
+.boxreal {
+  background-color: #d4d4d4;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
 }
-.even{
-    color: aquamarine;
+.odd {
+  color: red;
+  text-align: center;
 }
-.tmp{
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Readex Pro', sans-serif;
+.even {
+  color: aquamarine;
 }
-.inputNumber{
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    padding: 10px;
-    background-color: #ffffff;
+.tmp {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Readex Pro", sans-serif;
+}
+.inputNumber {
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  background-color: #ffffff;
 }
