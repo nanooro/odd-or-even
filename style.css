@@ -5,11 +5,12 @@
 .even {
   color: aquamarine;
 }
-.tmp {
+ .tmp {
   text-align: center;
   font-size: 50px;
   font-family: "Readex Pro", sans-serif;
 }
+/*
 .boxreal {
   /* background-color: #4ade80; */
   background: rgb(0, 252, 255);
@@ -59,14 +60,106 @@
 }
 .btn:hover {
   transform: translateY(-12spx);
+} */
+.watermark{
+  
 }
-.watermark {
+
+/* .inputtednum {
+  font-family: "Readex Pro", sans-serif;
+  font-size: 20px;
+} */
+
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  background: rgb(0, 252, 255);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(0, 252, 255, 1) 0%,
+    rgba(255, 174, 0, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(0, 252, 255, 1) 0%,
+    rgba(255, 174, 0, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(0, 252, 255, 1) 0%,
+    rgba(255, 174, 0, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00fcff",endColorstr="#ffae00",GradientType=1);
+}
+.hello{
+  text-align: center;
+  margin: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgba(0, 0, 0, 0.952);
+}
+.userInput{
+  width: 150px;
+  margin: 10px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+}
+.inputbox{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.submit{
+  font-family: "Readex pro";
+  width: 60px;
+  height: 30px;
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-left: 00px;
+  background-color: #ffffff;
+  transition-delay: none;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  outline: none;
+  border: solid black 2px;
+}
+.btn {
+  outline: none;
+  border: none;
+  padding: 10px;
+  color: ;
+  background-color: #a5f3fc;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+  font-family: "Readex Pro", sans-serif;
+}
+.submit:hover{
+  transform: translateY(-5px);
+  animation:  2s ease-in-out 0s;
+  background-color: #dddddd;
+}
+/* .button{
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  height: 20px;
+  background-color: #a5f3fc;
+} */
+.watermarkcontainer{
+  display: flex;
+  justify-content: right;
   text-align: right;
-  margin-top: 100px;
+  margin-top: 10px;
   font-size: 20px;
   font-family: "Readex Pro", sans-serif;
-}
-.inputtednum {
-  font-family: "Readex Pro", sans-serif;
-  font-size: 20px;
 }
