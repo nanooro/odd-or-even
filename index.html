@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <link rel="stylesheet" href="style.css" />
-  <script src="index.js" defer></script>
   <link
     href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap"
     rel="stylesheet"
@@ -35,14 +34,20 @@
       <div class="card">
         <h1 class="hello">Enter your number</h1>
         <div class="inputbox">
-          <input class="userInput" type="text" placeholder="your number here" />
-          <button class="submit">submit</button>
+          <input
+            id="userInput"
+            class="userInput"
+            type="text"
+            placeholder="your number here"
+          />
+          <p id="output"></p>
+          <button class="submit" onclick="submit();">submit</button>
         </div>
       </div>
     </div>
     <div class="watermarkcontainer">
       <p class="watermark">made by akash.s.acharya</p>
     </div>
-    
+    <script src="index.js" defer></script>
   </body>
 </html>
